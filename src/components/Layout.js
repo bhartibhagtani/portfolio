@@ -23,8 +23,11 @@ body {
 
 config({ ssrFadeout: true });
 
-const getTheme = pathname => {
-  const path = pathname.replace(/\//gi, '') || 'index';
+const getTheme = location => {
+  if (!location) {
+    return null;
+  }
+  const path = location.pathname.replace(/\//gi, '') || 'index';
   return {
     colors: theme.colors[path],
   };
@@ -33,7 +36,7 @@ const getTheme = pathname => {
 const Layout = ({ children, location }) => (
   <Fragment>
     <GlobalStyle />
-    <RebassProvider theme={getTheme(location.pathname)}>
+    <RebassProvider theme={getTheme(location)}>
       <ScrollingProvider>
         <Helmet />
         <Header />
