@@ -14,15 +14,15 @@ const colors = {
 
   'axis-redesign': {
     background: '#ffffff',
-    backgroundDark: '#EAE0D5',
+    backgroundDark: '#DEDEDE',
 
-    primary: '#1C0F13',
-    primaryLight: '#1C0F13',
-    primaryDark: '#1C0F13',
+    primary: '#2C0703',
+    primaryLight: '#2C0703',
+    primaryDark: '#2C0703',
 
-    secondary: '#92817A',
-    secondaryLight: '#EAE0D5',
-    secondaryDark: '#1C0F13',
+    secondary: '#B6465F',
+    secondaryLight: '#DEDEDE',
+    secondaryDark: '#2C0703',
   },
 };
 

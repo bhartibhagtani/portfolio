@@ -9,7 +9,7 @@ import UserAchintya from "./UserAchintya.png"
 
 const UserSegmentation = () => (
   <Section.Container id="" Background={TriangleSmall}>
-    <Section.Header name="User Segmentation" icon="🍽️" label="design" />
+    <Section.Header name="User Segmentation" icon="👫" label="design" />
     <Flex flexWrap="wrap">
       <Box width={[1, 1, 2 / 6]}>
         <Image

@@ -14,8 +14,6 @@ const Plan = () => (
               The banking dashboard is used by about 18% of
               people everyday yet no one mentions about the 
               pleasant digital experience. 
-              To bring a user centered solution for making the 
-              banking experience of users happy.
             `
           }
         </p>
@@ -23,8 +21,10 @@ const Plan = () => (
           {
             `
               The goal here is to increase the usability and appeal of the
-              features of axis's mobile application, which will increase its
-              standing against the competitors.
+              dashboard & credit card application features of axis's mobile 
+              application, which will increase its standing against the competitors.
+              To bring a user centered solution for making the banking experience 
+              of users happy.
             `
           }
         </p>

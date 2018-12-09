@@ -5,7 +5,7 @@ import Section from '../Section';
 import TriangleLanding from '../Triangle/TriangleLanding';
 
 const ProjectBrief = () => (
-  <Section.Container id="" Background={TriangleLanding}>
+  <Section.Container id="home" Background={TriangleLanding}>
     <Flex alignItems="center">
       <div>
         <Section.Header name="Project Brief" icon="🗒️️" label="brief" />

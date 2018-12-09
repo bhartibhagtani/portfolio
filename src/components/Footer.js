@@ -8,7 +8,7 @@ import SocialLink from "./SocialLink";
 
 const FooterContainer = styled.footer`
   padding: 1em;
-  background: ${props => console.log(props) || props.theme.colors.primaryDark};
+  background: ${props => props.theme.colors.primaryDark};
   color: ${props => props.theme.colors.background};
   display: flex;
   flex: 0 1 auto;
